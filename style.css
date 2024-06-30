@@ -76,6 +76,10 @@ body {
     font-size: 14px;
 }
 
+.author-name{
+    font-weight: 800;
+}
+
 .title {
     font-size: 24px;
 }
