@@ -14,8 +14,8 @@
   <meta property="og:title" content="Blog Preview Card by Satish Birhade">
   <meta property="og:description"
     content="Completed the 'Blog Preview Card' project. This project showcases a simple card component built with HTML and CSS.">
-  <meta property="og:image" content="https://your-domain.com/path-to-your-image.jpg">
-  <meta property="og:url" content="https://your-domain.com">
+  <meta property="og:image" content="https://blog-preview-card-sigma-three.vercel.app/design/desktop-design.jpg">
+  <meta property="og:url" content="https://blog-preview-card-sigma-three.vercel.app">
   <meta property="og:type" content="website">
 
   <!-- Twitter Card Meta Tags -->
@@ -25,8 +25,8 @@
   <meta name="twitter:title" content="Blog Preview Card by Satish Birhade">
   <meta name="twitter:description"
     content="Completed the 'Blog Preview Card' project. This project showcases a simple card component built with HTML and CSS.">
-  <meta name="twitter:image" content="https://your-domain.com/path-to-your-image.jpg">
-  <meta name="twitter:url" content="https://your-domain.com">
+  <meta name="twitter:image" content="https://blog-preview-card-sigma-three.vercel.app/design/desktop-design.jpg">
+  <meta name="twitter:url" content="https://blog-preview-card-sigma-three.vercel.app">
 
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
@@ -39,35 +39,27 @@
 </head>
 
 <body>
-  <main>
-    <div class="card">
-      <img class="card-image" src="./assets/images/illustration-article.svg" alt="card-image">
-      <div class="card-content">
-        <div class="category">
-          Learning
-        </div>
-        <div class="publish-date">
-          Published 21 Dec 2023
-        </div>
-        <h1 class="title">
-          HTML & CSS foundations
-        </h1>
-        <p class="description">
-          These languages are the backbone of every website, defining structure, content, and presentation.
-        </p>
-        <div class="author">
-          <img class="user-pic" src="./assets/images/image-avatar.webp" alt="user-image">
-          <p class="author-name">
-            Greg Hooper
-          </p>
-        </div>
+<main>
+  <article class="card">
+    <img class="card-image" src="./assets/images/illustration-article.svg" alt="Illustration of article">
+    <section class="card-content">
+      <p class="category">Learning</p>
+      <time class="publish-date" datetime="2023-12-21">Published 21 Dec 2023</time>
+      <h1 class="title">HTML & CSS foundations</h1>
+      <p class="description">
+        These languages are the backbone of every website, defining structure, content, and presentation.
+      </p>
+      <div class="author">
+        <img class="user-pic" src="./assets/images/image-avatar.webp" alt="Greg Hooper's avatar">
+        <p class="author-name">Greg Hooper</p>
       </div>
-    </div>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://www.linkedin.com/in/satish-birhade" target="_blank">Satish Birhade</a>.
-    </div>
-  </main>
+    </section>
+  </article>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>.
+    Coded by <a href="https://www.linkedin.com/in/satish-birhade" target="_blank" rel="noopener">Satish Birhade</a>.
+  </footer>
+</main>
 </body>
 
 </html>
