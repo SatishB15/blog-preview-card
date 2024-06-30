@@ -33,6 +33,7 @@ body {
     filter: drop-shadow(8px 8px 0 var(--color-black));
     border-radius: 20px;
     padding: 24px;
+    border: 2px solid var(--color-black);
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -68,12 +69,12 @@ body {
     vertical-align: top;
     border: none;
     outline: none;
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 .publish-date,
 .author-name {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .author-name{
@@ -82,16 +83,18 @@ body {
 
 .title {
     font-size: 24px;
+    font-weight: 800;
 }
 
 .description {
     font-size: 16px;
+    line-height: 20px;
     color: var(--color-grey);
 }
 
 .author {
     display: flex;
-    margin-top: 20px;
+    margin-top: 16px;
     align-items: center;
     gap: 12px;
 }
